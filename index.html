@@ -1,88 +1,118 @@
-<<!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tingyun Yin</title>
+    <script src="https://kit.fontawesome.com/252fc0fcba.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
   <body>
-  <div class="wrapper">
-    <nav>
+    <nav class="green">
+      <div class="container">
+      <img src="images/logo.png" alt="logo" class="logo">
       <p class="logo">
         TINGYUN YIN
       </p>
-      <ul>
+      <i class="fas fa-bars mobile tablet bars"></i>
+
+      <ul class="desk">
         <li>About</li>
         <li>Work</li>
         <li>Contact</li>
       </ul>
+      </div>
     </nav>
 
-    <section>
-      <h1>I’M TINGYUN YIN</h1>
-      <h4>I design better user experience, hack on cutting-edge coding demos,
-        build products from market’s pains. Interested, Let’s
-        <a href="#" class="link">connect</a></h4>
+    <section class="green">
+      <div class="container">
+      <img src="images/hero.png" alt="I'm in between of design,coding and market." id="hero">
+      <article class="column slogan">
+        <h1>I’M TINGYUN YIN</h1>
+        <h4 id="slogan">I design better user experience, hack on cutting-edge coding demos,
+          build products from market’s pains. Interested, Let’s
+          <a href="#" class="link">connect</a></h4>
+      </article>
+      </div>
     </section>
 
-    <section>
-      <h1>THINGS I’VE HACKED ON</h1>
-      <article class="">
+    <section class="purple">
+      <div class="container">
+      <article class="row">
+        <h1>THINGS I’VE HACKED ON</h1>
+      </article>
+
+      <article class="column">
         <h4>User Experience Design</h4>
         <h4>Frontend Development</h4>
         <h4>Product Management</h4>
       </article>
 
-      <article class="">
+      <article class="column" id="middle">
         <h4>Machine Learning</h4>
         <h4>Information Design</h4>
         <h4>Data Visualisation</h4>
       </article>
 
-      <article class="">
+      <article class="column" id="rightmost">
         <h4>Creative Coding</h4>
         <h4>User Data Analysis</h4>
         <h4>Interactive Art</h4>
       </article>
+      </div>
     </section>
 
-    <section>
-      <h2>Case Studies</h2>
-      <p>Following cases are focused on design based on solid research and
-        accommodation of technology innovation</p>
+    <section class="black">
+      <div class="container">
+      <article class="column case">
+        <h2>Case Studies</h2>
+        <p id="caseIntro">Following cases are focused on design based on solid research and
+          accommodation of technology innovation</p>
+      </article>
+
+      <article class="column case fixheight brain">
+        <h2>Brain Box</h2>
+        <p>Design of a cloud-storage App helping users to organize their virtual brain</p>
+        <a href="#"><button>View Case Study</button></a>
+        <a href="#"><button>View Prototype</button></a>
+      </article>
+
+      <article class="column case fixheight bus">
+        <h2>Busy Bus</h2>
+        <p>Design and development of a public transit App challenging competitor products</p>
+        <a href="#"><button>View Case Study</button></a>
+        <a href="#"><button>View Prototype</button></a>
+      </article>
+
+      <article class="column case fixheight data">
+        <h2>Machine Learning 0 to 1</h2>
+        <p>Design and development of an educational website visualizing machine learning algorithms</p>
+        <a href="#"><button>Visit Site</button></a>
+      </article>
+      </div>
     </section>
 
-    <section>
-      <h2>Brain Box</h2>
-      <p>Design of a cloud-storage App helping users to organize their virtual brain</p>
-      <a href="#" class="button">View Case Study</a>
-      <a href="#" class="button">View Prototype</a>
-    </section>
 
-    <section>
-      <h2>Busy Bus</h2>
-      <p>Design and development of a public transit App challenging competitor products</p>
-      <a href="#" class="button">View Case Study</a>
-      <a href="#" class="button">View Prototype</a>
-    </section>
-
-    <section>
-      <h2>Machine Learning 0 to 1</h2>
-      <p>Design and development of an educational website visualizing machine learning algorithms</p>
-      <a href="#" class="button">Visit Site</a>
-    </section>
-
-    <section>
-      <h2>WHAT I’M GOOD AT</h2>
+    <section class="yellow">
+      <div class="container">
+      <h2 class="title">WHAT I’M GOOD AT</h2>
       <h4>I am good at solving problems with systematic thinking, analysing
         complicated data and building experience according to customers’ needs.</h4>
       <a href="#" class="link"><h3>View My CV</h3></a>
+      </div>
     </section>
 
-    <section>
-      <h2>Design Process</h2>
-      <article class="">
+    <section class="black process">
+      <div class="container">
+      <article class="row">
+        <h2>Design Process</h2>
+        <img src="images/process_small.png" alt="illustrating design process" class="mobile" id="process_small">
+        <img src="images/process_large.png" alt="illustrating design process" class="desk tablet" id="process_large">
+      </article>
+
+      <article class="column process">
         <h4>Discovering</h4>
         <h5>User Survey</h5>
         <h5>User Interview</h5>
@@ -91,8 +121,8 @@
         <h5>User Personas/POVs</h5>
       </article>
 
-      <article class="">
-        <h4>Information Architecture</h4>
+      <article class="column process">
+        <h4 class="longword">Information Architecture</h4>
         <h5>Card Sorting</h5>
         <h5>User Stories</h5>
         <h5>Journey Maps</h5>
@@ -101,7 +131,7 @@
         <h5>User Testing</h5>
       </article>
 
-      <article class="">
+      <article class="column process">
         <h4>Prototyping</h4>
         <h5>Sketching</h5>
         <h5>Wireframing</h5>
@@ -110,7 +140,7 @@
         <h5>Figma/Sketch</h5>
       </article>
 
-      <article class="">
+      <article class="column process">
         <h4>Coding</h4>
         <h5>HTML/CSS/Javascript</h5>
         <h5>C++/Open Framework</h5>
@@ -118,43 +148,65 @@
         <h5>Matlab/Octave</h5>
         <h5>Machine Learning</h5>
       </article>
+      </div>
     </section>
 
-    <section>
-      <h2>WHO I’VE BEEN WORKED WITH</h2>
-      <article class="">
-        <p>Tingyun is one of the most unique thinkers I have ever met. Tingyun
-          makes connections of different subjects that most do not.  Smart and
-          Creative as she is, I believe she will be more successful and impactful
-           than she ever imagined.</p>
-        <figure>
+    <section class="grey curve">
+      <div class="container">
+      <article class="row">
+        <h2 class="title">WHO I’VE BEEN WORKED WITH</h2>
+      </article>
+
+      <section class="hasFloat">
+        <figure class="testmony">
+          <img src="images/matt.png" alt="matthew kressy photo" id="matt">
           <figcaption>
             <h3>Matthew Kressy</h3>
             <p>Founder of Designturn</p>
             <p>Director of MIT IDM</p>
           </figcaption>
         </figure>
-      </article>
+        <article class="column">
+          <img src="images/quote.png" alt="quotation mark" class="quotation_mark" >
+          <p>Tingyun is one of the most unique thinkers I have ever met. Tingyun
+            makes connections of different subjects that most do not.  Smart and
+            Creative as she is, I believe she will be more successful and impactful
+             than she ever imagined.</p>
+        </article>
+      </section>
 
-      <article class="">
-        <p>Tingyun is a very self-driven learner. She constantly absorbs new
-          trends and techniques in the tech industry and she has her own
-          understanding of how to build a good product. She can turn dream-like
-          ideas into solid products.</p>
-        <figure>
+      <section class="hasFloat">
+        <figure class="testmony">
+          <img src="images/mike.png" alt="mike dekker photo" id="mike">
           <figcaption>
             <h3>Mike Dekker</h3>
             <p>Independent UX Designer & Consultant</p>
           </figcaption>
         </figure>
-      </article>
+        <article class="column">
+          <img src="images/quote.png" alt="quotation mark" class="quotation_mark" >
+          <p>Tingyun is a very self-driven learner. She constantly absorbs new
+            trends and techniques in the tech industry and she has her own
+            understanding of how to build a good product. She can turn dream-like
+            ideas into solid products.</p>
+        </article>
+      </section>
+      </div>
     </section>
 
-    <footer>
+    <footer class="black">
+      <div class="container">
+      <img src="images/logo.png" alt="logo" class="logo">
       <p class="logo">
         TINGYUN YIN
       </p>
+      <p class="social">
+        <i class="fas fa-envelope social"></i>
+        <i class="fab fa-linkedin social"></i>
+        <i class="fab fa-instagram social"></i>
+        <i class="fab fa-github social"></i>
+      </p>
+      </div>
     </footer>
-  </div>
   </body>
 </html>
